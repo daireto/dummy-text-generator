@@ -1,6 +1,24 @@
 <!-- omit in toc -->
 # Dummy Text Generator
 
+<p align="center">
+    <a href="https://pypi.org/project/dummy-text-generator" target="_blank">
+        <img src="https://img.shields.io/pypi/pyversions/dummy-text-generator" alt="Supported Python versions">
+    </a>
+    <a href="https://pypi.org/project/dummy-text-generator" target="_blank">
+        <img src="https://img.shields.io/pypi/v/dummy-text-generator" alt="Package version">
+    </a>
+    <a href="https://github.com/daireto/dummy-text-generator/actions" target="_blank">
+        <img src="https://github.com/daireto/dummy-text-generator/actions/workflows/publish.yml/badge.svg" alt="Publish">
+    </a>
+    <a href='https://coveralls.io/github/daireto/dummy-text-generator?branch=main'>
+        <img src='https://coveralls.io/repos/github/daireto/dummy-text-generator/badge.svg?branch=main' alt='Coverage Status' />
+    </a>
+    <a href="/LICENSE" target="_blank">
+        <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+    </a>
+</p>
+
 A Python library for generating random texts, sentences, paragraphs, comments,
 and names in multiple languages like English, Spanish, French, and German.
 
