@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dummy-text-generator"
+dynamic = ["version"]
+authors = [{ name = "Dairo Mosquera", email = "dairoandres115@outlook.com" }]
+description = "A Python library for generating random texts, sentences, paragraphs, comments, and names in multiple languages like English, Spanish, French, and German."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = [
+    "dummy-text-generator",
+    "dummy-text",
+    "text-generator",
+    "dummy",
+    "generator",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/daireto/dummy-text-generator"
+Issues = "https://github.com/daireto/dummy-text-generator/issues"
+Repository = "https://github.com/daireto/dummy-text-generator"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["dummy_text_generator*"]
+exclude = ["tests*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "dummy_text_generator.__version__" }
